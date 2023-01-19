@@ -1,6 +1,13 @@
 # 2022 AI 대학원 챌린지 
+주제 : **백신 및 면역치료제 개발을 위한 항원-항체 반응 예측**  
 
-## Private : 0.7603 [전기톱원숭이] 팀
+Private Score : 0.7603 [전기톱원숭이] 팀
+- 1st🥇 place on **verified private leaderboard**
+- 2nd🥈 place on **final result** (private score + presentation)
+
+[Solution Writeup on Dacon](https://dacon.io/competitions/official/235932/codeshare/5860?page=1&dtype=recent)  
+  
+[Winning Solution Writeup in PDF](aichallenge_solution.pdf)
   
 ## 1. 개발환경 및 라이브러리
 ---
@@ -54,7 +61,7 @@ scikit-learn==1.1.1
     - 모든 fold 모델들을 이용해 추론 결과 probablity를 soft voting을 이용해 최종 추론을 결정합니다.
     - threshold를 설정하려면 ```CONFIG['threshold']```를 조절합니다.
 
-## Apendix
+## Appendix
 - Tabnet 참고자료 : **Arik, S. Ö., & Pfister, T. (2021, May). Tabnet: Attentive interpretable tabular learning. In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 35, No. 8, pp. 6679-6687).** 
   
 - CT-CTD features 참고자료 : **Sharma, A., & Singh, B. (2020). AE-LGBM: Sequence-based novel approach to detect interacting protein pairs via ensemble of autoencoder and LightGBM. Computers in Biology and Medicine, 125, 103964.**
