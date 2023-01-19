@@ -1,0 +1,7 @@
+# Ignore files
+
+Embeddings/
+Tabnet_ESM_models/
+
+# not ignore
+!log.txt
